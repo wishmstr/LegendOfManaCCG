@@ -8,5 +8,5 @@ plugins/LegendOfManaCCG/sets/setimages/general/spawned.jpg	https://raw.githubuse
 plugins/LegendOfManaCCG/CardImageURLs1.txt	https://raw.githubusercontent.com/wishmstr/LegendOfManaCCG/main/CardImageURLs1.txt	1536496
 plugins/LegendOfManaCCG/Legend_of_Mana_Rulebook.pdf	https://raw.githubusercontent.com/wishmstr/LegendOfManaCCG/main/Legend_of_Mana_Rulebook.pdf	-3395142
 plugins/LegendOfManaCCG/defaultchat.txt	https://raw.githubusercontent.com/wishmstr/LegendOfManaCCG/main/defaultchat.txt	10906
-CardImageURLs:
+CardURLFiles:
 CardImageURLs1.txt
