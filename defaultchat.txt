@@ -1,0 +1,20 @@
+!Start Hand!/draw7
+!Start Char!/f5;/f5;/f5
+.
+!Mulligan!/f6;/f6;/f6;/f6;/f6;/f6;/f6;/shuffle Main Deck;/draw7
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.

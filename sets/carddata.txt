@@ -1,0 +1,151 @@
+Name	Set	ImageFile	CardType	Cost	Attribute	AttributeCondition	BasicMana	LandName	Strength	Defense	UsageTiming	SpecialSkill
+Mailbox	core	C001ed	Land/Artifact	6	None		1	Home				
+Broken Doll	core	C002ed	Land/Artifact	6	Fire		2	Junkyard				
+Flame	core	C003ed	Land/Artifact	6	Fire		1	Gato Grottoes				
+Tome of Magic	core	C004ed	Land/Artifact	5	Fire		1	Geo				
+The Flames	core	C005ed	Land/Artifact		Fire		2	The Flames				
+Jade Egg	core	C006ed	Land/Artifact	6	Water		1	Mekiv Caverns				
+Torch of Coral	core	C007ed	Land/Artifact	6	Water		1	Madora Beach				
+Rusty Anchor	core	C008ed	Land/Artifact	4	Water		1	Polpota Harbor				
+Pirate's Hook	core	C009ed	Land/Artifact	8	Water		1	SS Buccaneer				
+Skull Lantern	core	C010ed	Land/Artifact	5	Earth		1	Gato Grottoes				
+Bottled Spirit	core	C011ed	Land/Artifact	6	Earth		1	Mekiv Caverns				
+Ancient Tablet	core	C012ed	Land/Artifact	5	Earth		1	Mindas Ruins				
+Medallion	core	C013ed	Land/Artifact	4	Gnome		1	Jungle				
+Wheel	core	C014ed	Land/Artifact	4	Wind		1	Luon Highway				
+Sand Rose	core	C015ed	Land/Artifact	5	Wind		1	Duma Desert				
+Moon's Mirror	core	C016ed	Land/Artifact	6	Wind		1	Tower of Leires				
+Frozen Heart	core	C017ed	Land/Artifact	5	Wind		1	Fieg Snowfields				
+Firefly Lamp	core	C018ed	Land/Artifact	5	Light		1	Lumina				
+Stone Eye	core	C019ed	Land/Artifact	7	Light		1	Lake Kilma				
+Trembling Spoon	core	C020ed	Land/Artifact	4	Dark		1	Underworld				
+Dragon Bone	core	C021ed	Land/Artifact	5	Dark		1	Bone Fortress				
+Brooch of Love	core	C022ed	Land/Artifact	7	Wind		0	Lucemia				
+Green Cane	core	C023ed	Land/Artifact	5	Wood		1	White Forest				
+Color Blocks	core	C024ed	Land/Artifact	2	Gold		1	Domina				
+Jumi's Staff	core	C025ed	Land/Artifact	4	Gold		2	Bejewled City				
+Golden Seed	core	C026ed	Land/Artifact	1	Special		0	Orchard				
+Sword of Mana	core	C027ed	Land/Artifact	7	Special		1	Tree of Mana				
+Hitodama	core	C028ed	Monster	3	Fire				*	3	Hell's Keeper	
+Drakonis	core	C029ed	Monster	5	Fire				6	5	Disaster	
+Beholder	core	C030ed	Monster	2	Fire				4	2	Glare	
+Fierce Face	core	C031ed	Monster	1	Fire				3	4	Scary Face	
+Tomato Man	core	C032ed	Monster	1	Fire				0	4	Curse of Fire	
+Kid Dragon	core	C033ed	Monster	0	Fire				*	1	Petit Breath	
+Du'Cate	core	C034ed	Monster	3	Earth				4	6		Sluggish
+Boreal Hound	core	C035ed	Monster	4	Earth				4	4		Howling
+Narcissos	core	C036ed	Monster	2	Earth				3	4		
+Malboro	core	C037ed	Monster	1	Earth				1	3		Stinky Breath
+Goblin	core	C038ed	Monster	1	Earth				2	2		Call for Backup
+Molebear	core	C039ed	Monster	0	Earth				0	3		Hidden Bear
+Akravator	core	C040ed	Monster	4	Wind				5	3		First Strike
+Iron Centaur	core	C041ed	Monster	3	Wind				4	3		Devastation
+Sky Dragon	core	C042ed	Monster	3	Wind				*	3		Gliding Attack
+Punkster	core	C043ed	Monster	1	Wind				4	1		Tornado
+Basilisk	core	C044ed	Monster	3	Wind				2	2		Evil Eye of Petrification
+Teedie	core	C045ed	Monster	1	Wind				2	2		Floating
+Fullmetal Haggar	core	c046ed	Monster	4	Water				4	4		Iron Shell
+Gorgon Eye	core	c047ed	Monster	3	Water				0	5		Evil Eye of Death
+Big Baby	core	C048ed	Monster	2	Water				3	*		Water Guardian
+Lizardon	core	C049ed	Monster	1	Water				2	1		Glutton
+Sahagin	core	C050ed	Monster	0	Water				2	2		
+Tonpole	core	C051ed	Monster	1	Water				2	3		Metamorphosis
+Vadise	core	C052ed	Monster	4	Light				3	4		Resurrection Song
+Eye Spy	core	C053ed	Monster	2	Light				3	3		Good Luck
+Chocobo	core	C054ed	Monster	1	Light				3	2		High Speed
+Mad Mallard	core	C055ed	Monster	2	Light				2	2		Helmet
+Jajara	core	C056ed	Monster	2	Dark				5	5		Sacrifice
+Deathbringer	core	C057ed	Monster	5	Dark				5	4		Curse of Darkness
+Succubus	core	C058ed	Monster	2	Dark				4	1		Immortality
+Shadow Zero	core	C059ed	Monster	1	Dark				0	0		Unwilling Companion
+Lord of Jewels 999	core	C060ed	Monster	3	Gold				4	3		Mana Stone
+Jewel Beast	core	C061ed	Monster	3	Gold				*	3		Mana Power
+Springball	core	C062ed	Monster	0	Gold				4	4		Bounty on its Head
+Polter Box	core	C063ed	Monster	1	Gold				1	4		Treasure Chest
+Labanne	core	C064ed	Monster	4	Wood				*	*		Power of the Earth
+Kima	core	C065ed	Monster	3	Wood				2	5		Regeneration
+Chobin Hood	core	C066ed	Monster	1	Wood				2	3		Hidden in Leaves
+Lullabud	core	C067ed	Monster	1	Wood				0	3		Regeneration
+Useless Putty	core	C068ed	Support	2	Fire	F					Main Phase	
+Professor Kathinja's Rage	core	C069ed	Support	3	Fire	FF					Main Phase	
+Golem Craftsman Bomb	core	C070ed	Support	1	Fire	FF					Main Phase	
+Magnolia's Fire Stone	core	C071ed	Support	2	Fire	F					In Battle	
+Professor Mephianse's Dangerous Experiment	core	C072ed	Support	4	Fire	FF					Main Phase	
+Junkyard Louie	core	C073ed	Support	1	Fire	F					In Battle	
+Rosiotti's Teaching	core	C074ed	Support	2	Earth	EE					Main Phase	
+Lilipea's Illusion	core	C075ed	Support	2	Earth	EE					Main Phase	
+Stubborn Craftsman Watts	core	C076ed	Support	2	Earth	E					In Battle	
+Meimei's Fruit Divination	core	C077ed	Support	2	Earth	E					Main Phase	
+Gaeus's Pulse	core	C078ed	Support	6	Earth	E					Main Phase	
+Master Excavator Dudbear	core	C079ed	Support	1	Earth	E					Main Phase	
+Duelle's Battle Arena	core	C080ed	Support	3	Wind	Wi					Main Phase	
+Master of Mantras Pokiehl	core	c081ed	Support	3	Wind	WiWi					In Battle	
+Capella's Trick Revealed	core	c082ed	Support	4	Wind	Wi					Cancel	
+King of the Winds Selva	core	c083ed	Support	2	Wind	WiWi					Main Phase	
+Inspector Boyd's Investigation	core	c084ed	Support	X	Wind	Wi					Main Phase	
+Windcaller's Anger	core	c085ed	Support	3	Wind	WiWi					Main Phase	
+Crystalle's Freezing Sigh	core	c086ed	Support	3	Water	Wa					In Battle	
+Sage Tote's Mediation	core	c087ed	Support	3	Water	WaWa					In Battle	
+Flameshe's Singing	core	c088ed	Support	X	Water	Wa					Cancel	
+The Manager Dandyism's	core	c089ed	Support	4	Water	Wa					Main Phase	
+Precocious Basket Fish	core	c090ed	Support	1	Water	Wa					Cancel	
+Pirate Penguin Raid	core	c091ed	Support	3	Water	WaWa					Main Phase	
+Diana's Slumber	core	c092ed	Support	3	Light	L					Main Phase	
+Florina's Teardrop Crystal	core	c093ed	Support	3	Light	L					Main Phase	
+Miss Yuka's Retort	core	c094ed	Support	1	Light	L					Main Phase	
+Nouvelle's Prayer	core	c095ed	Support	1	Light	L					In Battle	
+Olbohn's Judgement	core	c096ed	Support	3	Dark	D					Main Phase	
+Professor Thesenis's Unexpected Appearance	core	c097ed	Support	3	Dark	D					In Battle	
+Belle's Selfish Nightmare	core	c098ed	Support	4	Dark	D					Cancel	
+Shadole's Invitation to Death	core	c099ed	Support	1	Dark	D					In Battle	
+Teapo's Afternoon Tea	core	c100ed	Support	2	Gold	G					Main Phase	
+Alex's Jewelry Appraisal	core	c101ed	Support	1	Gold	G					Main Phase	
+Summoner Nunuzac	core	c102ed	Support	3	Gold	G					Main Phase	
+Kristie's Auction Time	core	c103ed	Support	2	Gold	G					In Battle	
+Lil' Cactus Dairy	core	c104ed	Support	2	Wood	Wo					Main Phase	
+Sproutling's Returning Place	core	c105ed	Support	4	Wood	Wo					Main Phase	
+Boink	core	c106ed	Support	1	Wood	Wo					Main Phase	
+Trent's Fruiting Time	core	c107ed	Support	3	Wood	Wo					Main Phase	
+Hero	core	c108ed,chback	Character						4	2	Replenishment	
+Heroine	core	c109ed,chback	Character						3	3	Replenishment	
+Niccolo	core	c110ed,chback	Character						1	4	End of Battle	
+Escad	core	c111ed,chback	Character						4	4	In Battle	
+Daena	core	c112ed,chback	Character						3	3	In Battle	
+Larc	core	c113ed,chback	Character						4	2	End of Battle	
+Sierra	core	c114ed,chback	Character						4	3	In Battle	
+Princess Pearl	core	c115ed,chback	Character						2	2	In Battle	
+Lady Blackpearl	core	c116ed,chback	Character						3	3	Always	
+Elazul	core	c117ed,chback	Character						3	2	In Battle	
+Elle	core	c118ed,chback	Character						3	1	Main Phase	
+Bud	core	c119ed,chback	Character						2	1	Always	
+Lisa	core	c120ed,chback	Character						1	2	Always	
+Matilda	core	c121ed,chback	Character						2	2	Always	
+Sandra	core	c122ed,chback	Character						4	1	End of Battle	
+Rabite	core	c123ed,chback	Character						2	3	Main Phase	
+Gilbert	core	c124ed,chback	Character						0	4	Cancel	
+Rubens	core	c125ed,chback	Character						3	3	In Battle	
+Roger	core	c126ed,chback	Character						3	4	Main Phase	
+Cap'n Tusk	core	c127ed,chback	Character						4	3	End of Battle	
+Skippie	core	c128ed,chback	Character						2	3	Main Phase	
+Hamson	core	c129ed,chback	Character						6	2		
+Machine Golem Mark I	core	c130ed,chback	Character						3	3	In Battle	
+Machine Golem Mark 44	core	c131ed,chback	Character						1	5	In Battle	
+Laurent Knife	core	c132ed	Item	1								
+Orichalcum Sword	core	c133ed	Item	3								
+Jacobini Axe	core	c134ed	Item	2								
+Scale 2H Sword	core	c135ed	Item	3								
+Vinek 2H Axe	core	c136ed	Item	1								
+Bone Hammer	core	c137ed	Item	1								
+Fullmetal Spear	core	c138ed	Item	2								
+Ishe Staff	core	c139ed	Item	1								
+Swifty Gloves	core	c140ed	Item	4								
+Wendel Flail	core	c141ed	Item	2								
+Obsidian Bow	core	c142ed	Item	1								
+Wyvern Flute	core	c143ed	Item	2	Fire							
+Beiser Harp	core	c144ed	Item	2	Light							
+Ivory Flute	core	c145ed	Item	2	Earth							
+Dior Harp	core	c146ed	Item	2	Dark							
+Lizard Marimba	core	c147ed	Item	2	Wind							
+Beiser Drum	core	c148ed	Item	2	Wood							
+Teardrop Marimba	core	c149ed	Item	2	Water							
+Stone Drum	core	c150ed	Item	2	Gold							

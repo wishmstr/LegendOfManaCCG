@@ -1,0 +1,185 @@
+<plugin>
+
+//-----Player Stats-----//
+
+<playerstat><label>Mana</label><initialvalue>0</initialvalue></playerstat>
+
+//-----Deck Zones-----//
+
+<deckzone>
+     <label>Main Deck</label>
+     <shuffle>yes</shuffle>
+</deckzone>
+
+<deckzone>
+     <label>Character Deck</label>
+     <shuffle>yes</shuffle>
+</deckzone>
+
+//-----Game Zones-----//
+
+<gamezone>
+     <label>Hand</label>
+     <visibletoowner>yes</visibletoowner>
+</gamezone>
+
+<gamezone>
+     <label>Main Deck</label>
+</gamezone>
+
+<gamezone>
+     <label>Character Deck</label>
+</gamezone>
+
+<gamezone>
+     <label>Discard</label>
+     <visibletoowner>yes</visibletoowner>
+     <visibletoothers>yes</visibletoothers>
+</gamezone>
+
+//-----Phases-----//
+// 1 - Start Phase
+// --1a - Untap
+// --1b - Mana Recovery
+// --1c - Character Replenish
+// --1d - Hand Replenish
+// 2 - Main Phase
+// -- 2a - Land Make (1 only)
+// -- 2b - Use Cards
+// -- 2c - Chr attacks Mon
+// -- 2d - Monster Movement
+// -- 2e - Monster attk Party
+// -- 2f - Monser Opening
+// 3 - Monster Placement Phase
+// 4 - End Phase
+// -- 4a - Discard down to 7
+// -- 4b - Declare Your Mana Total
+
+<phase><label>Start Phase</label></phase>
+<phase><label>--Untap</label></phase>
+<phase><label>--Mana Recovery</label></phase>
+<phase><label>--Character Replenish</label></phase>
+<phase><label>--Hand Replenish</label></phase>
+<phase><label>Main Phase</label></phase>
+<phase><label>--Land Make (1 only)</label></phase>
+<phase><label>--Use Cards</label></phase>
+<phase><label>--Char attacks Monster</label></phase>
+<phase><label>--Monster Movement</label></phase>
+<phase><label>--Monster attk Party</label></phase>
+<phase><label>--Monser Opening</label></phase>
+<phase><label>Monster Placement Phase</label></phase>
+<phase><label>End Phase</label></phase>
+<phase><label>--Discard down to 7</label></phase>
+<phase><label>--Declare Your Mana Total</label></phase>
+
+//-----General Functions-----//
+// 1 - Draw a Card
+// 2 - Flip a Coin
+// 3 - Spawn a Card
+// 4 - Ready All Cards
+// 5 - Draw Character
+// 6 - Mulligan
+
+<generalfunction>
+	<label>Draw</label>
+	<kind>DRAWCARD</kind>
+	<includeasbutton>yes</includeasbutton>
+</generalfunction>
+
+<generalfunction>
+	<label>Flip Coin</label>
+	<kind>FLIPCOIN</kind>
+</generalfunction>
+
+<generalfunction>
+	<label>Spawn Card</label>
+	<kind>SPAWNCARD</kind>
+</generalfunction>
+
+<generalfunction>
+	<label>Ready All</label>
+	<kind>ALLYOURCARDSMAKERIGHT0DEGREES</kind>
+	<includeasbutton>yes</includeasbutton>
+</generalfunction>
+
+<generalfunction>
+	<label>Draw Character</label>
+	<kind>TRANSFERCARD</kind>
+	<sourcegamezone>Character Deck</sourcegamezone>
+	<sourceposition>top</sourceposition>
+	<destinationowner>table</destinationowner>
+	<includeasbutton>yes</includeasbutton>
+</generalfunction>
+
+<generalfunction>
+	<label>Mulligan</label>
+	<kind>TRANSFERCARD</kind>
+	<sourcegamezone>Hand</sourcegamezone>
+	<destinationgamezone>Main Deck</destinationgamezone>
+</generalfunction>
+
+
+//-----Card Functions-----//
+// 1 - Ready Card 0 Degrees
+// 2 - Rotate Card 90 Degrees to the Right
+// 3 - Green Counter +1
+// 4 - Green Counter -1
+// 5 - Red Counter +1
+// 6 - Red Counter -1
+
+
+<cardfunction>
+	<label>Ready</label>
+	<kind>MAKERIGHT0DEGREES</kind>
+	<includeasbutton>yes</includeasbutton>
+</cardfunction>
+
+<cardfunction>
+	<label>Spend</label>
+	<kind>MAKERIGHT90DEGREES</kind>
+</cardfunction>
+
+<cardfunction>
+	<label>Green +1</label>
+	<kind>ADDCOUNTER</kind>
+	<color>green</color>
+	<includeasbutton>yes</includeasbutton>
+	<PositionX>.75</PositionX>
+	<PositionY>.04</PositionY>
+</cardfunction>
+
+<cardfunction>
+	<label>Green -1</label>
+	<kind>REMOVECOUNTERGREEN</kind>
+	<color>green</color>
+	<includeasbutton>yes</includeasbutton>
+</cardfunction>
+
+<cardfunction><label>Red +1</label>
+	<kind>ADDCOUNTER</kind>
+	<color>red</color>
+	<includeasbutton>yes</includeasbutton>
+	<PositionX>.5</PositionX>
+	<PositionY>.04</PositionY>
+</cardfunction>
+
+<cardfunction><label>Red -1</label>
+	<kind>REMOVECOUNTER</kind>
+	<color>red</color>
+	<includeasbutton>yes</includeasbutton>
+</cardfunction>
+
+//-----Definitions-----//
+
+<definition>
+	<kind>ISYOURFACEDOWNVISIBLE</kind>
+	<value>no</value>
+</definition>
+
+
+<definition>
+	<kind>ISALLOWINGMULTIPLECARDBACKS</kind>
+	<value>yes</value>
+</definition>
+
+</plugin>
