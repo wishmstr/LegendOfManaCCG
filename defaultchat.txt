@@ -1,5 +1,6 @@
 !Start Hand!/draw7
 !Start Char!/f5;/f5;/f5
+!+1 Mana!/player stat1 +1
 .
 !Mulligan!/f6;/f6;/f6;/f6;/f6;/f6;/f6;/shuffle Main Deck;/draw7
 .

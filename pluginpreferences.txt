@@ -5,6 +5,7 @@
 <recentskins>default</recentskins>
 <canned>!Start Hand!/draw7</canned>
 <canned>!Start Char!/f5;/f5;/f5</canned>
+<canned>!+1 Mana!/player stat1 +1</canned>
 <canned>.</canned>
 <canned>!Mulligan!/f6;/f6;/f6;/f6;/f6;/f6;/f6;/shuffle Main Deck;/draw7</canned>
 <canned>.</canned>
@@ -22,7 +23,6 @@
 <canned>.</canned>
 <canned>.</canned>
 <canned>.</canned>
-<canned>Good game.</canned>
 <fontkind0pos0>Lato-Reg.ttf</fontkind0pos0>
 <fontkind0pos1>Roboto-Light_0.ttf</fontkind0pos1>
 <fontkind0pos2>times.ttf</fontkind0pos2>
